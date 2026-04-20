@@ -12,8 +12,14 @@ public class QuizPanel extends AppPanel {
 		super(new BorderLayout(0, 15));
 		add(new QuestionPanel(), BorderLayout.NORTH);
 		add(new AnswerPanel(), BorderLayout.CENTER);
+<<<<<<< HEAD
 
 		// TODO Auto-generated constructor stub
 	}
+=======
+	}
+	
+	
+>>>>>>> 2126f613b09c3c7270dde347196c3a3a1b72dc18
 
 }

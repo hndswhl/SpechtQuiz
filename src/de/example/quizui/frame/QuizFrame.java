@@ -51,6 +51,7 @@ public class QuizFrame extends JFrame {
      * @return das Hauptpanel der Anwendung
      */
     private AppPanel buildMainPanel() {
+<<<<<<< HEAD
     	
 //        AppPanel rootPanel = new AppPanel(new BorderLayout(0, 15));
 //        rootPanel.setBorder(BorderFactory.createEmptyBorder(20, 20, 20, 20));
@@ -58,6 +59,14 @@ public class QuizFrame extends JFrame {
 
         RootPanel rootPanel = new RootPanel();
         
+=======
+//        AppPanel rootPanel = new AppPanel(new BorderLayout(0, 15));
+//        rootPanel.setBorder(BorderFactory.createEmptyBorder(20, 20, 20, 20));
+//        rootPanel.setBackground(new Color(245, 245, 245));
+    	
+    	RootPanel rootPanel = new RootPanel();
+
+>>>>>>> 2126f613b09c3c7270dde347196c3a3a1b72dc18
 //        rootPanel.add(new HeaderPanel(), BorderLayout.NORTH);
         rootPanel.add(buildCenterPanel(), BorderLayout.CENTER);
 
@@ -71,8 +80,13 @@ public class QuizFrame extends JFrame {
      */
     private JPanel buildCenterPanel() {
 //        AppPanel centerPanel = new AppPanel(new BorderLayout(0, 15));
+<<<<<<< HEAD
     	
     	QuizPanel centerPanel = new QuizPanel ();
+=======
+
+    	QuizPanel centerPanel = new QuizPanel();
+>>>>>>> 2126f613b09c3c7270dde347196c3a3a1b72dc18
 //        centerPanel.add(new QuestionPanel(), BorderLayout.NORTH);
 //        centerPanel.add(new AnswerPanel(), BorderLayout.CENTER);
         centerPanel.add(buildBottomSection(), BorderLayout.SOUTH);
@@ -86,10 +100,11 @@ public class QuizFrame extends JFrame {
      * @return das untere Panel
      */
     private JPanel buildBottomSection() {
-        AppPanel bottomPanel = new AppPanel(new BorderLayout(0, 15));
+//        AppPanel bottomPanel = new AppPanel(new BorderLayout(0, 15));
 
-        bottomPanel.add(new ResultPanel(), BorderLayout.NORTH);
-        bottomPanel.add(new InfoPanel(), BorderLayout.CENTER);
+    	InfoPanel bottomPanel = new InfoPanel();
+//        bottomPanel.add(new ResultPanel(), BorderLayout.NORTH);
+//        bottomPanel.add(new InfoPanel(), BorderLayout.CENTER);
 
         return bottomPanel;
     }
