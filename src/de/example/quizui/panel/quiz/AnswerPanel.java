@@ -1,10 +1,11 @@
-package de.example.quizui.panel;
-
-import de.example.quizui.ui.AppPanel;
-import de.example.quizui.ui.AppRadioButton;
+package de.example.quizui.panel.quiz;
 
 import javax.swing.BorderFactory;
 import javax.swing.ButtonGroup;
+
+import element.AppPanel;
+import element.AppRadioButton;
+
 import java.awt.Color;
 import java.awt.GridLayout;
 

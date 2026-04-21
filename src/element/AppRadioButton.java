@@ -1,4 +1,4 @@
-package de.example.quizui.ui;
+package element;
 
 import javax.swing.JRadioButton;
 import java.awt.Color;

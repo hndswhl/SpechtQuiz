@@ -1,4 +1,4 @@
-package de.example.quizui.ui;
+package element;
 
 import javax.swing.BorderFactory;
 import javax.swing.JPanel;
